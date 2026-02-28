@@ -56,6 +56,16 @@ backend/
 
 - **Commit policy** – When modifying any file, create a git commit with a concise, informative message summarizing the change.
 
+## Branching & PR Workflow
+- **Start a new branch** for each new piece of work: `git checkout -b <branch-name>`.
+- **Stage and commit** all changes on that branch: `git add -A && git commit -m "<concise‑description>"`.
+- **Push** the branch to GitHub: `git push origin <branch-name>`.
+- **Open a pull request**: `gh pr create --title "<PR title>" --body "<PR description>"`.
+- **Code review** will be performed on the PR. After review, I will ask you to confirm merging the PR.
+- **Merge** the PR once you approve: `gh pr merge <PR‑number>`.
+
+These steps help keep the main branch stable and ensure every change is reviewed before integration.
+
 ## Important Files & Their Roles
 - **`backend/app.py`** – Core server, request handlers, hardware detection, compatibility logic.
 - **`backend/static/models_info.json`** – JSON map of model IDs → `{min_ram_gb, min_vram_gb, gpu_required}`. Generated automatically on first run.
