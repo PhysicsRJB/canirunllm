@@ -26,47 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(err => {
             hardwareInfoEl.textContent = 'Failed to load hardware info: ' + err;
         });
-    // Load model list for the dropdown (client-side from static JSON, only models with known requirements and compatible with detected hardware)
+    // Load model list for the dropdown (client-side from static JSON, show all top‑500 models)
     fetch('http://localhost:5000/static/models_info.json')
         .then(r => r.json())
         .then(models => {
-            // Ensure hardware info is available
-            const hardware = window.detectedHardware;
-            if (!hardware) {
-                console.warn('Hardware info not loaded yet; showing all known models.');
-                // Fallback to known models without compatibility filtering
-                const knownFallback = Object.entries(models).filter(([id, info]) =>
-                    info.min_ram_gb > 0 || info.min_vram_gb > 0 || info.gpu_required
-                );
-                const entriesFallback = knownFallback.sort((a, b) => {
-                    const aScore = a[1].min_ram_gb + a[1].min_vram_gb;
-                    const bScore = b[1].min_ram_gb + b[1].min_vram_gb;
-                    return bScore - aScore;
-                });
-                window.modelEntries = entriesFallback;
-                populateDropdown(entriesFallback);
-                return;
-            }
-            const totalRam = hardware.ram.total_gb;
-            const gpu = hardware.gpus && hardware.gpus.length > 0 ? hardware.gpus[0] : null;
-            const totalVram = gpu ? gpu.total_vram_gb : 0;
-            const hasGpu = !!gpu;
-
-            // Filter models that have known hardware requirements and are compatible with the detected hardware
-            const compatible = Object.entries(models).filter(([id, info]) => {
-                const meetsRam = info.min_ram_gb <= totalRam;
-                const meetsVram = info.min_vram_gb <= totalVram;
-                const gpuOk = !info.gpu_required || hasGpu;
-                const knownReq = info.min_ram_gb > 0 || info.min_vram_gb > 0 || info.gpu_required;
-                return knownReq && meetsRam && meetsVram && gpuOk;
-            });
-            // Sort descending by total resource requirement (RAM + VRAM)
-            const entries = compatible.sort((a, b) => {
-                const aScore = a[1].min_ram_gb + a[1].min_vram_gb;
-                const bScore = b[1].min_ram_gb + b[1].min_vram_gb;
-                return bScore - aScore;
-            });
-            // Store entries for later search filtering
+            const entries = Object.entries(models);
             window.modelEntries = entries;
             populateDropdown(entries);
         })

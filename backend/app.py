@@ -54,41 +54,64 @@ else:
     LLM_MODELS = {}
 
 # Load or fetch model hardware requirements from HuggingFace
+# The models_info.json file is refreshed at most once per day. If the file does not exist
+# or is older than the current day, we fetch the top‑500 most‑downloaded models from
+# HuggingFace Hub, compute their hardware requirements, and store the result.
+from datetime import datetime, timedelta
 MODELS_INFO_PATH = os.path.join(os.path.dirname(__file__), 'static', 'models_info.json')
 print('Loading models info from', MODELS_INFO_PATH)
-if os.path.exists(MODELS_INFO_PATH):
-    with open(MODELS_INFO_PATH, 'r') as f:
-        MODELS_INFO = json.load(f)
-    print('Loaded MODELS_INFO keys:', list(MODELS_INFO.keys()))
-else:
-    # Fetch top 500 most downloaded models and estimate requirements
+
+def load_models_info():
+    # If the file exists and was modified today, reuse it.
+    if os.path.exists(MODELS_INFO_PATH):
+        try:
+            mtime = datetime.fromtimestamp(os.path.getmtime(MODELS_INFO_PATH))
+            if mtime.date() == datetime.now().date():
+                with open(MODELS_INFO_PATH, 'r') as f:
+                    data = json.load(f)
+                print('Loaded MODELS_INFO keys (cached):', list(data.keys()))
+                return data
+        except Exception:
+            # If any error occurs, fall back to re‑fetching.
+            pass
+    # Otherwise, fetch the latest top‑500 models.
     api = HfApi()
-    models = api.list_models(sort="downloads", limit=500)
-    MODELS_INFO = {}
+    models = list(api.list_models(sort="downloads", limit=500))
+    print('Number of models fetched from HuggingFace:', len(models))
+    info_dict = {}
     for model in models:
         model_id = model.modelId
         try:
             info = api.model_info(model_id)
             # Sum sizes of model files (bin, safetensors, pt)
             total_bytes = sum(
-                sibling.size for sibling in info.siblings
+                (sibling.size or 0) for sibling in info.siblings
                 if sibling.rfilename.endswith(('.bin', '.safetensors', '.pt'))
             )
             # Estimate RAM requirement (approx double the model size for loading in FP16)
             min_ram_gb = int((total_bytes / (1024**3)) * 2 + 0.999)  # ceil
             gpu_required = total_bytes > 2 * 1024**3  # >2GB
             min_vram_gb = min_ram_gb if gpu_required else 0
-            MODELS_INFO[model_id] = {
+            info_dict[model_id] = {
                 "min_ram_gb": min_ram_gb,
                 "min_vram_gb": min_vram_gb,
                 "gpu_required": gpu_required
             }
         except Exception:
-            # Skip models we cannot inspect
-            continue
+            # If we cannot fetch model info, still add the model with default (zero) requirements
+            info_dict[model_id] = {
+                "min_ram_gb": 0,
+                "min_vram_gb": 0,
+                "gpu_required": False
+            }
     # Save for future use
     with open(MODELS_INFO_PATH, 'w') as f:
-        json.dump(MODELS_INFO, f, indent=2)
+        json.dump(info_dict, f, indent=2)
+    print('Fetched and saved MODELS_INFO keys:', list(info_dict.keys()))
+    return info_dict
+
+# Load the model info (cached or fresh)
+MODELS_INFO = load_models_info()
 
 def get_cpu_info():
     # psutil does not provide model name directly; we can use platform.uname on Windows
@@ -212,6 +235,17 @@ def api_models_filter():
         if info.get('min_ram_gb', 0) <= min_ram and info.get('min_vram_gb', 0) <= min_vram
     }
     return jsonify(filtered)
+
+@app.route('/api/models/compatible')
+def api_models_compatible():
+    """Return all models from the cached top‑500 list that are compatible with the detected hardware."""
+    hardware = detect_hardware()
+    compatible = {}
+    for model_id, req in MODELS_INFO.items():
+        result = check_compatibility(model_id, hardware)
+        if result.get('status') == 'compatible':
+            compatible[model_id] = req
+    return jsonify(compatible)
 
 # @app.errorhandler(404)
 

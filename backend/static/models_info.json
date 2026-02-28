@@ -1,5 +1,110 @@
 {
+  "sentence-transformers/all-MiniLM-L6-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-bert/bert-base-uncased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/electra-base-discriminator": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Falconsai/nsfw_image_detection": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/all-mpnet-base-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "FacebookAI/xlm-roberta-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/mobilenetv3_small_100.lamb_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "FacebookAI/roberta-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "laion/clap-htsat-fused": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/clip-vit-base-patch32": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-7B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "BAAI/bge-m3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "amazon/chronos-2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pyannote/wespeaker-voxceleb-resnet34-LM": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Bingsu/adetailer": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pyannote/segmentation-3.0": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "alana89/TabSTAR": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
   "pyannote/speaker-diarization-3.1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "colbert-ir/colbertv2.0": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-VL-2B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "cross-encoder/ms-marco-MiniLM-L6-v2": {
     "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
@@ -9,7 +114,327 @@
     "min_vram_gb": 0,
     "gpu_required": false
   },
+  "Qwen/Qwen3-0.6B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "omni-research/Tarsier2-Recap-7b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "hexgrad/Kokoro-82M": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai-community/gpt2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "FacebookAI/roberta-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Kijai/WanVideo_comfy": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Comfy-Org/Wan_2.2_ComfyUI_Repackaged": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "distilbert/distilbert-base-uncased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
   "coqui/XTTS-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "autogluon/chronos-bolt-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-VL-8B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "OpenMuQ/MuQ-large-msd-iter": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/contriever": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "dima806/fairface_age_image_detection": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-0.5B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "FacebookAI/xlm-roberta-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.1-8B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/clip-vit-large-patch14": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-3B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/gpt-oss-20b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/paraphrase-multilingual-mpnet-base-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/whisper-large-v3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ProsusAI/finbert": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "BAAI/bge-small-en-v1.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "usyd-community/vitpose-plus-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "BAAI/bge-large-en-v1.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-1.7B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/convnextv2_nano.fcmae_ft_in22k_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-8B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/opt-125m": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "autogluon/chronos-bolt-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "argmaxinc/whisperkit-coreml": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-4B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jinaai/jina-embeddings-v3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nomic-ai/nomic-embed-text-v1.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "BAAI/bge-base-en-v1.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/clip-vit-large-patch14-336": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "autogluon/chronos-2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Comfy-Org/Wan_2.1_ComfyUI_repackaged": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "intfloat/multilingual-e5-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/multi-qa-mpnet-base-dot-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "cardiffnlp/twitter-roberta-base-sentiment-latest": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lpiccinelli/unidepth-v2-vitl14": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/esmfold_v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "dphn/dolphin-2.9.1-yi-1.5-34b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-bert/bert-base-multilingual-uncased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "amazon/chronos-bolt-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/all-MiniLM-L12-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "laion/CLIP-ViT-B-32-DataComp.XL-s13B-b90K": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/vit-base-patch16-224": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-russian": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-Embedding-0.6B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-bert/bert-base-multilingual-cased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mlx-community/Kimi-K2.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "distilbert/distilbert-base-uncased-finetuned-sst-2-english": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/whisper-large-v3-turbo": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/gpt-oss-120b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/paraphrase-MiniLM-L6-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "BAAI/bge-reranker-v2-m3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-32B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "IDEA-Research/grounding-dino-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/bart-large-mnli": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-VL-7B-Instruct": {
     "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
@@ -19,7 +444,492 @@
     "min_vram_gb": 0,
     "gpu_required": false
   },
+  "Qwen/Qwen3-4B-Instruct-2507": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "vikhyatk/moondream2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.2-1B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/wav2vec2-base-960h": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/w2v-bert-2.0": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "iitolstykh/mivolo_v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2-1.5B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "drbaph/Qwen-Image-Edit-2511-FP8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-OCR": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/LaBSE": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-32B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/resnet50.a1_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2-VL-2B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nomic-ai/nomic-embed-text-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ETH-CVG/lightglue_superpoint": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "magic-leap-community/superpoint": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "MahmoudAshraf/mms-300m-1130-forced-aligner": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/gemma-3-1b-it": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "answerdotai/JaColBERTv2.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "emilyalsentzer/Bio_ClinicalBERT": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/table-transformer-detection": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "apple/mobilevit-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "laion/CLIP-ViT-B-32-laion2B-s34B-b79K": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/dinov2-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "w11wo/indonesian-roberta-base-posp-tagger": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-VL-235B-A22B-Thinking": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-bert/bert-base-cased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/clip-vit-base-patch16": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "intfloat/multilingual-e5-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "llava-hf/llava-1.5-7b-hf": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Salesforce/blip-image-captioning-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "patrickjohncyh/fashion-clip": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Bingsu/yolo-world-mirror": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "intfloat/multilingual-e5-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-polish": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Comfy-Org/z_image_turbo": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/deberta-xlarge-mnli": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-greek": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/bart-large-cnn": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/TRELLIS-image-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "indonesian-nlp/wav2vec2-indonesian-javanese-sundanese": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/whisper-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-VL-3B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ibm-granite/granite-timeseries-ttm-r1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/mobilenetv3_large_100.ra_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "hustvl/vitmatte-small-composition-1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-t5/t5-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/siglip-so400m-patch14-384": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "WhereIsAI/UAE-Large-V1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-dutch": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "EssentialAI/eai-distill-0.5b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Meta-Llama-3-8B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-30B-A3B-Instruct-2507": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Comfy-Org/Qwen-Image_ComfyUI": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "stabilityai/stable-diffusion-xl-base-1.0": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "rhasspy/faster-whisper-tiny-int8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pyannote/segmentation": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.2-3B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "thenlper/gte-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/embeddinggemma-300m": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "EleutherAI/pythia-160m": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-VL-30B-A3B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/gemma-3-4b-it": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-7B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-arabic": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "zai-org/GLM-OCR": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/paraphrase-mpnet-base-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "E-MIMIC/inclusively-reformulation-it5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-TTS-12Hz-1.7B-Base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Lightricks/LTX-2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "BAAI/bge-reranker-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/resnet18.a1_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Intel/zoedepth-nyu-kitti": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-Embedding-8B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "intfloat/e5-large-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/sam3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "distilbert/distilgpt2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
   "ggml-org/models-moved": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lightx2v/Wan2.2-Distill-Loras": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "TinyLlama/TinyLlama-1.1B-Chat-v1.0": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/deberta-v3-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Coder-0.5B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "RedHatAI/Llama-3.2-1B-Instruct-FP8-dynamic": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "opensearch-project/opensearch-neural-sparse-encoding-doc-v2-distill": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/bart-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "cross-encoder/ms-marco-MiniLM-L4-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-t5/t5-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "zai-org/GLM-4.7-Flash": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/table-transformer-structure-recognition": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Alibaba-NLP/gte-large-en-v1.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-hungarian": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Coder-1.5B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mixedbread-ai/mxbai-embed-large-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "charactr/vocos-mel-24khz": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "CIDAS/clipseg-rd64-refined": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-OCR-2": {
     "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
@@ -34,7 +944,587 @@
     "min_vram_gb": 0,
     "gpu_required": false
   },
+  "google/gemma-3-27b-it": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nvidia/bigvgan_v2_22khz_80band_256x": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-14B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "moonshotai/Kimi-K2.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/phi-2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2-VL-7B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "prajjwal1/bert-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "prajjwal1/bert-tiny": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-0.6B-FP8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lpiccinelli/unik3d-vitl": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Freepik/nsfw_image_detector": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "distilbert/distilroberta-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "stable-diffusion-v1-5/stable-diffusion-v1-5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "dslim/bert-base-NER": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-32B-Instruct-AWQ": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "anuragshas/wav2vec2-large-xlsr-53-telugu": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "apple/OpenELM-1_1B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
   "Xenova/bge-base-en-v1.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-V3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/wav2vec2-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "intfloat/e5-base-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Khalsuu/filipino-wav2vec2-l-xls-r-300m-official": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "kingabzpro/wav2vec2-large-xls-r-300m-Urdu": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Coder-7B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "thenlper/gte-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.2-3B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-japanese": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "roadz/qwen3-1.7b-oxxroad": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "answerdotai/answerai-colbert-small-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/wavlm-base-plus": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.2-1B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "intfloat/e5-small-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mistralai/Mistral-7B-Instruct-v0.3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "gerbejon/segformer-websegcl25-2000-mc-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-14B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/esm2_t33_650M_UR50D": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Snowflake/snowflake-arctic-embed-l-v2.0": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "finiteautomata/beto-sentiment-analysis": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Meta-Llama-3-8B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/musicgen-medium": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "autogluon/chronos-bolt-tiny": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.1-8B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "gigant/romanian-wav2vec2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Harveenchadha/vakyansh-wav2vec2-tamil-tam-250": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-VL-4B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/gemma-3-12b-it": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "naver/splade-cocondenser-ensembledistil": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "bigscience/bloomz-560m": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "depth-anything/Depth-Anything-V2-Small-hf": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openvla/openvla-7b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "unslothai/1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/deberta-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nguyenvulebinh/wav2vec2-base-vi-vlsp2020": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-0.5B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "StanfordAIMI/stanford-deidentifier-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "amazon/chronos-t5-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "NovaSearch/stella_en_400M_v5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/dinov2-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "bardsai/finance-sentiment-ja-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "autogluon/chronos-bolt-mini": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/vit-base-patch16-224-in21k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "prithivida/parrot_paraphraser_on_T5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "dbmdz/bert-large-cased-finetuned-conll03-english": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/paraphrase-MiniLM-L3-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/flava-full": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "hmellor/tiny-random-LlamaForCausalLM": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-Next-80B-A3B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nomic-ai/nomic-embed-text-v2-moe": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "airesearch/wav2vec2-large-xlsr-53-th": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai-community/gpt2-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-VL-Embedding-2B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mixedbread-ai/mxbai-rerank-xsmall-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "distil-whisper/distil-large-v3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/msmarco-MiniLM-L12-cos-v5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lmstudio-community/GLM-4.7-Flash-MLX-8bit": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-30B-A3B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "unslothai/repeat": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lmstudio-community/GLM-4.7-Flash-MLX-6bit": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "KBLab/wav2vec2-large-voxrex-swedish": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Alibaba-NLP/gte-multilingual-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mesolitica/wav2vec2-xls-r-300m-mixed": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/distiluse-base-multilingual-cased-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-bert/bert-base-chinese": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/convnext_tiny.fb_in22k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "autogluon/chronos-2-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/Florence-2-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ibm-granite/granite-embedding-small-english-r2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ResembleAI/chatterbox": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "cross-encoder/ms-marco-MiniLM-L12-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "distilbert/distilbert-base-multilingual-cased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nlptown/bert-base-multilingual-uncased-sentiment": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/efficientnet_b0.ra_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "cross-encoder/ms-marco-MiniLM-L2-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Tongyi-MAI/Z-Image-Turbo": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "RedHatAI/Qwen2.5-1.5B-quantized.w8a8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "amazon/chronos-bolt-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-persian": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Math-1.5B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/siglip-base-patch16-224": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "laion/larger_clap_general": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/flan-t5-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "apple/DFN5B-CLIP-ViT-H-14-378": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Comfy-Org/flux2-dev": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pyannote/speaker-diarization-community-1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-R1-0528": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/layoutlmv3-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "kakaobank/kf-deberta-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "amazon/chronos-bolt-tiny": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "answerdotai/ModernBERT-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/multi-qa-MiniLM-L6-cos-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Comfy-Org/Qwen-Image-Edit_ComfyUI": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Helsinki-NLP/opus-mt-en-ru": {
     "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
@@ -44,7 +1534,597 @@
     "min_vram_gb": 0,
     "gpu_required": false
   },
+  "OpenGVLab/InternVL2-2B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Helsinki-NLP/opus-mt-nl-en": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ibm-research/MoLFormer-XL-both-10pct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/roberta-hate-speech-dynabench-r4-target": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nvidia/parakeet-ctc-1.1b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "bullpoint/Qwen3-Coder-Next-AWQ-4bit": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nvidia/Llama-3.1-Nemotron-Nano-VL-8B-V1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/whisper-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "h2oai/h2ovl-mississippi-800m": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai-community/roberta-base-openai-detector": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "h2oai/h2ovl-mississippi-2b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/owlv2-base-patch16-ensemble": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/tapex-base-finetuned-wikisql": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-VL-7B-Instruct-AWQ": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/nllb-200-distilled-600M": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/distiluse-base-multilingual-cased-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-30B-A3B-Instruct-2507-FP8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "dccuchile/bert-base-spanish-wwm-uncased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ahotrod/electra_large_discriminator_squad2_512": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jinaai/jina-embeddings-v2-base-de": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "almanach/camembert-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/siglip2-base-patch16-naflex": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "rizvandwiki/gender-classification": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "crynux-network/sdxl-turbo": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "llamafactory/tiny-random-Llama-3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "allenai/longformer-base-4096": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lengyue233/content-vec-best": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "PekingU/rtdetr_r101vd_coco_o365": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-72B-Instruct-AWQ": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "HuggingFaceTB/SmolLM2-135M": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "NbAiLab/nb-wav2vec2-1b-bokmaal-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-R1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-finnish": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3.5-397B-A17B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ZhengPeng7/BiRefNet": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mixedbread-ai/mxbai-rerank-base-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/deberta-v3-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "hubertsiuzdak/snac_24khz": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "intfloat/multilingual-e5-large-instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "NbAiLab/nb-wav2vec2-1b-nynorsk": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lmstudio-community/Qwen3-Coder-Next-MLX-8bit": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Coder-32B-Instruct-AWQ": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "llm-jp/llm-jp-3-3.7b-instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-14B-Instruct-AWQ": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "theainerd/Wav2Vec2-large-xlsr-hindi": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "omni-research/Tarsier2-7b-0115": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "comodoro/wav2vec2-xls-r-300m-cs-250": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "oliverguhr/fullstop-punctuation-multilang-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "liuhaotian/llava-v1.5-7b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "kaitchup/Phi-3-mini-4k-instruct-gptq-4bit": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lmstudio-community/Qwen3-Coder-Next-MLX-4bit": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "cardiffnlp/twitter-xlm-roberta-base-sentiment": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Coder-32B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lxyuan/distilbert-base-multilingual-cased-sentiments-student": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/mdeberta-v3-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "softcatala/wav2vec2-large-xlsr-catala": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "spacepxl/Wan2.1-VAE-upscale2x": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "lmstudio-community/Qwen3-Coder-Next-MLX-6bit": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "thuml/sundial-base-128m": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Salesforce/moirai-1.1-R-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Yehor/w2v-xls-r-uk": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "arijitx/wav2vec2-xls-r-300m-bengali": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/siglip2-so400m-patch16-naflex": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "thenlper/gte-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sshleifer/distilbart-cnn-12-6": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
   "pyannote/overlapped-speech-detection": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "zai-org/GLM-5-FP8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-Coder-30B-A3B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2-VL-7B-Instruct-AWQ": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nvidia/bigvgan_v2_44khz_128band_512x": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Salesforce/blip-image-captioning-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/phi-4": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/all-roberta-large-v1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Supabase/gte-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "amazon/chronos-t5-tiny": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/beit-base-patch16-224-pt22k-ft22k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.3-70B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "saattrupdan/wav2vec2-xls-r-300m-ftspeech": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Maple728/TimeMoE-200M": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/dinov2-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepset/roberta-base-squad2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-Coder-1.5B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "imvladikon/wav2vec2-xls-r-300m-hebrew": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/esm2_t6_8M_UR50D": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-t5/t5-3b": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-8B-Base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Helsinki-NLP/opus-mt-tr-en": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/resnet34.a1_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "cointegrated/rubert-tiny2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.1-70B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "gagan3012/wav2vec2-xlsr-nepali": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "crynux-network/stable-diffusion-v1-5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Marqo/marqo-fashionSigLIP": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "yiyanghkust/finbert-tone": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "RedHatAI/Llama-3.2-1B-Instruct-FP8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mistralai/Mixtral-8x7B-Instruct-v0.1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-Coder-Next": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "stabilityai/sd-turbo": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mistralai/Mistral-7B-v0.3": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "kresnik/wav2vec2-large-xlsr-korean": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonathandinu/face-parsing": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/VibeVoice-ASR": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "allenai/unifiedqa-t5-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "black-forest-labs/FLUX.1-dev": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/trocr-large-printed": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Babelscape/rebel-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Helsinki-NLP/opus-mt-fr-en": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "eddiegulay/wav2vec2-large-xlsr-mvc-swahili": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "unslothai/other": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pyannote/embedding": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "black-forest-labs/FLUX.1-schnell": {
     "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
@@ -54,7 +2134,212 @@
     "min_vram_gb": 0,
     "gpu_required": false
   },
+  "rhasspy/faster-whisper-medium-int8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct-AWQ": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jinaai/jina-embeddings-v2-small-en": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-Embedding-4B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "iSEE-Laboratory/llmdet_base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Isotonic/distilbert_finetuned_ai4privacy_v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "SWivid/F5-TTS": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "docling-project/docling-models": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "dmis-lab/biobert-v1.1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-ASR-1.7B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai/whisper-tiny": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Salesforce/blip-vqa-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sentence-transformers/msmarco-bert-base-dot-v5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "BAAI/bge-reranker-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "cardiffnlp/twitter-roberta-base-sentiment": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
   "pyannote/speaker-diarization": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "tencent/HunyuanOCR": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "tencent/HunyuanImage-3.0": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-Omni-30B-A3B-Instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "dmis-lab/biobert-base-cased-v1.1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "laion/CLIP-ViT-H-14-laion2B-s32B-b79K": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "tomh/toxigen_hatebert": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Xuhui/ToxDect-roberta-large": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/Phi-3-mini-4k-instruct": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/efficientnet_b2.ra_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "hustvl/yolos-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Systran/faster-whisper-small": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-235B-A22B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "openai-community/gpt2-medium": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "briaai/RMBG-1.4": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "freelawproject/modernbert-embed-base_finetune_512": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/layoutlmv2-base-uncased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "descript/dac_44khz": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mistralai/Mistral-7B-Instruct-v0.1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "mlx-community/gemma-3-4b-it-qat-4bit": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/dpr-ctx_encoder-single-nq-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "NousResearch/Hermes-3-Llama-3.1-8B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "dropbox-dash/faster-whisper-large-v3-turbo": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "docling-project/docling-layout-heron": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "amunchet/rorshark-vit-base": {
     "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
@@ -64,23 +2349,153 @@
     "min_vram_gb": 0,
     "gpu_required": false
   },
+  "Kijai/WanVideo_comfy_fp8_scaled": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google-bert/bert-large-uncased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "j-hartmann/emotion-english-distilroberta-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "flair/ner-english-fast": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pysentimiento/robertuito-sentiment-analysis": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "nvidia/segformer-b0-finetuned-ade-512-512": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "apple/DFN2B-CLIP-ViT-B-16": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/dinov3-vitb16-pretrain-lvd1689m": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "MoritzLaurer/deberta-v3-large-zeroshot-v2.0": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "neuralmind/bert-large-portuguese-cased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Alibaba-NLP/gte-reranker-modernbert-base": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-3.1-405B": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "timm/vit_base_patch16_224.augreg2_in21k_ft_in1k": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "jilijeanlouis/gliner_largev2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "laion/CLIP-ViT-L-14-laion2B-s32B-b82K": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "qandos0/SentimentArEng": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "google/electra-small-discriminator": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/esm2_t12_35M_UR50D": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
   "unsloth/Qwen3-Coder-Next-GGUF": {
     "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
   },
-  "meta-llama/Llama-2-7b-chat-hf": {
-    "min_ram_gb": 16,
-    "min_vram_gb": 8,
-    "gpu_required": true
-  },
-  "EleutherAI/gpt-j-6b": {
-    "min_ram_gb": 12,
+  "minishlab/potion-base-8M": {
+    "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
   },
-  "facebook/opt-1.3b": {
-    "min_ram_gb": 4,
+  "google/t5-v1_1-xxl": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "HadrianSecurity/subwiz": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "neuralmind/bert-base-portuguese-cased": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "sshleifer/tiny-gpt2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Qwen/Qwen3-4B-Thinking-2507": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "microsoft/Phi-3.5-vision-instruct": {
+    "min_ram_gb": 0,
     "min_vram_gb": 0,
     "gpu_required": false
   }
