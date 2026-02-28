@@ -3,3 +3,5 @@ psutil
 GPUtil
 Flask-CORS
 pytest
+requests
+huggingface_hub

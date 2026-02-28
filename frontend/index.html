@@ -9,19 +9,24 @@
     <h1>LLM Compatibility Checker</h1>
     <section id="hardware">
         <h2>Detected Hardware</h2>
-        <pre id="hardware-info">Loading hardware info...</pre>
+        <div id="hardware-info">Loading hardware info...</div>
     </section>
     <section id="check">
         <h2>Check LLM Compatibility</h2>
         <label for="llm-select">Select LLM:</label>
+    <input type="text" id="model-search" placeholder="Search models..." style="margin-left:10px;">
+    <br>
         <select id="llm-select">
-            <option value="llama2_7b">Llama 2 7B</option>
-            <option value="gpt2_small">GPT-2 Small</option>
-            <option value="mistral_7b">Mistral 7B</option>
+            <option value="" disabled selected>Select a model</option>
         </select>
         <button id="check-btn">Check Compatibility</button>
         <pre id="result">Result will appear here.</pre>
     </section>
     <script src="script.js"></script>
+    <section id="models">
+        <h2>Compatible Models</h2>
+        <button id="load-models-btn">Load Compatible Models</button>
+        <pre id="models-list">Models will appear here.</pre>
+    </section>
 </body>
 </html>

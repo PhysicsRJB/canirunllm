@@ -2,10 +2,48 @@ from flask import Flask, jsonify, request
 import psutil
 import json
 import os
+from huggingface_hub import HfApi
 from flask_cors import CORS
 
 app = Flask(__name__)
+
+@app.route('/test')
+def test_route():
+    return jsonify({'msg': 'test ok'})
+
+@app.route('/list_routes')
+def list_routes():
+    return jsonify([str(rule) for rule in app.url_map.iter_rules()])
+print('App started')
+
+# @app.errorhandler(404)
+def not_found(e):
+    print('404 handler invoked for', request.path, flush=True)
+    return jsonify({'error': 'Not found'}), 404
+
+@app.route('/debug/all_routes')
+def debug_all_routes():
+    return jsonify([str(rule) for rule in app.url_map.iter_rules()])
+@app.route('/debug/hello')
+def debug_hello():
+    return jsonify({'message': 'hello'})
 CORS(app)
+
+@app.route('/info')
+def info_route():
+    return jsonify({'status': 'ok'})
+
+@app.errorhandler(404)
+def not_found(e):
+    print('404 handler invoked for', request.path, flush=True)
+    return jsonify({'error': 'Not found'}), 404
+@app.before_request
+def log_path():
+    print('Incoming request:', request.path, flush=True)
+
+@app.route('/ping')
+def ping():
+    return 'pong'
 
 # Load LLM hardware requirements
 LLM_MODELS_PATH = os.path.join(os.path.dirname(__file__), 'llm_models.json')
@@ -15,6 +53,42 @@ if os.path.exists(LLM_MODELS_PATH):
 else:
     LLM_MODELS = {}
 
+# Load or fetch model hardware requirements from HuggingFace
+MODELS_INFO_PATH = os.path.join(os.path.dirname(__file__), 'static', 'models_info.json')
+print('Loading models info from', MODELS_INFO_PATH)
+if os.path.exists(MODELS_INFO_PATH):
+    with open(MODELS_INFO_PATH, 'r') as f:
+        MODELS_INFO = json.load(f)
+    print('Loaded MODELS_INFO keys:', list(MODELS_INFO.keys()))
+else:
+    # Fetch top 500 most downloaded models and estimate requirements
+    api = HfApi()
+    models = api.list_models(sort="downloads", limit=500)
+    MODELS_INFO = {}
+    for model in models:
+        model_id = model.modelId
+        try:
+            info = api.model_info(model_id)
+            # Sum sizes of model files (bin, safetensors, pt)
+            total_bytes = sum(
+                sibling.size for sibling in info.siblings
+                if sibling.rfilename.endswith(('.bin', '.safetensors', '.pt'))
+            )
+            # Estimate RAM requirement (approx double the model size for loading in FP16)
+            min_ram_gb = int((total_bytes / (1024**3)) * 2 + 0.999)  # ceil
+            gpu_required = total_bytes > 2 * 1024**3  # >2GB
+            min_vram_gb = min_ram_gb if gpu_required else 0
+            MODELS_INFO[model_id] = {
+                "min_ram_gb": min_ram_gb,
+                "min_vram_gb": min_vram_gb,
+                "gpu_required": gpu_required
+            }
+        except Exception:
+            # Skip models we cannot inspect
+            continue
+    # Save for future use
+    with open(MODELS_INFO_PATH, 'w') as f:
+        json.dump(MODELS_INFO, f, indent=2)
 
 def get_cpu_info():
     # psutil does not provide model name directly; we can use platform.uname on Windows
@@ -31,14 +105,12 @@ def get_cpu_info():
         'logical_cores': logical
     }
 
-
 def get_ram_info():
     mem = psutil.virtual_memory()
     # Return GB
     return {
         'total_gb': round(mem.total / (1024**3), 2)
     }
-
 
 def get_gpu_info():
     # Use GPUtil if available; otherwise return empty list
@@ -55,7 +127,6 @@ def get_gpu_info():
     except Exception:
         return []
 
-
 def detect_hardware():
     return {
         'cpu': get_cpu_info(),
@@ -63,9 +134,8 @@ def detect_hardware():
         'gpus': get_gpu_info()
     }
 
-
 def check_compatibility(llm_name, hardware):
-    req = LLM_MODELS.get(llm_name)
+    req = MODELS_INFO.get(llm_name) or LLM_MODELS.get(llm_name)
     if not req:
         return {
             'status': 'unknown_llm',
@@ -106,6 +176,7 @@ def check_compatibility(llm_name, hardware):
 
 @app.route('/api/hardware')
 def api_hardware():
+    print('api_hardware called')
     return jsonify(detect_hardware())
 
 @app.route('/api/check_compatibility')
@@ -121,6 +192,58 @@ def api_check_compatibility():
         'compatibility': result
     }
     return jsonify(response)
+
+@app.route('/api/models')
+def api_models():
+    print('api_models called')
+    # Return all models with their requirements
+    return jsonify(MODELS_INFO)
+
+@app.route('/api/models/filter')
+def api_models_filter():
+    # Filter based on hardware constraints passed as query params
+    try:
+        min_ram = float(request.args.get('min_ram', 0))
+        min_vram = float(request.args.get('min_vram', 0))
+    except ValueError:
+        return jsonify({'error': 'Invalid numeric query parameter'}), 400
+    filtered = {
+        model_id: info for model_id, info in MODELS_INFO.items()
+        if info.get('min_ram_gb', 0) <= min_ram and info.get('min_vram_gb', 0) <= min_vram
+    }
+    return jsonify(filtered)
+
+# @app.errorhandler(404)
+
+def debug_all_routes():
+    return jsonify([str(rule) for rule in app.url_map.iter_rules()])
+
+@app.route('/debug/all_routes')
+def debug_all_routes_route():
+    return debug_all_routes()
+def not_found(e):
+    print('404 handler invoked for', request.path, flush=True)
+    return jsonify({'error': 'Not found'}), 404
+
+# Debug route removed to avoid duplicate endpoint
+
+@app.route('/debug/models_info')
+
+def get_model(model):
+    return jsonify(MODELS_INFO.get(model, {}))
+def debug_models_info():
+    return jsonify(MODELS_INFO)
+
+@app.route('/debug/get_model/<path:model>')
+def debug_get_model(model):
+    return jsonify(MODELS_INFO.get(model, {}))
+
+@app.route('/debug/routes')
+def debug_routes():
+    return jsonify([str(rule) for rule in app.url_map.iter_rules()])
+@app.route('/debug/models_path')
+def debug_models_path():
+    return jsonify({'path': MODELS_INFO_PATH})
 
 if __name__ == '__main__':
     # Run on all interfaces, port 5000

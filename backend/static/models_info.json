@@ -1,0 +1,87 @@
+{
+  "pyannote/speaker-diarization-3.1": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Xenova/paraphrase-multilingual-MiniLM-L12-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "coqui/XTTS-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "speechbrain/spkrec-resnet-voxceleb": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ggml-org/models-moved": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "speechbrain/spkrec-ecapa-voxceleb": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Xenova/all-MiniLM-L6-v2": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "Xenova/bge-base-en-v1.5": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "ggml-org/tinygemma3-GGUF": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pyannote/overlapped-speech-detection": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pyannote/voice-activity-detection": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "pyannote/speaker-diarization": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "PaddlePaddle/UVDoc": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "unsloth/Qwen3-Coder-Next-GGUF": {
+    "min_ram_gb": 0,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "meta-llama/Llama-2-7b-chat-hf": {
+    "min_ram_gb": 16,
+    "min_vram_gb": 8,
+    "gpu_required": true
+  },
+  "EleutherAI/gpt-j-6b": {
+    "min_ram_gb": 12,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  },
+  "facebook/opt-1.3b": {
+    "min_ram_gb": 4,
+    "min_vram_gb": 0,
+    "gpu_required": false
+  }
+}
