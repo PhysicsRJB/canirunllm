@@ -1,0 +1,5 @@
+Flask
+psutil
+GPUtil
+Flask-CORS
+pytest

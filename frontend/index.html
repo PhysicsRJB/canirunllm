@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LLM Compatibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>LLM Compatibility Checker</h1>
+    <section id="hardware">
+        <h2>Detected Hardware</h2>
+        <pre id="hardware-info">Loading hardware info...</pre>
+    </section>
+    <section id="check">
+        <h2>Check LLM Compatibility</h2>
+        <label for="llm-select">Select LLM:</label>
+        <select id="llm-select">
+            <option value="llama2_7b">Llama 2 7B</option>
+            <option value="gpt2_small">GPT-2 Small</option>
+            <option value="mistral_7b">Mistral 7B</option>
+        </select>
+        <button id="check-btn">Check Compatibility</button>
+        <pre id="result">Result will appear here.</pre>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

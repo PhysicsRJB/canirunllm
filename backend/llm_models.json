@@ -1,0 +1,16 @@
+{
+  "llama2_7b": {
+    "min_ram_gb": 16,
+    "min_vram_gb": 8,
+    "gpu_required": true
+  },
+  "gpt2_small": {
+    "min_ram_gb": 8,
+    "gpu_required": false
+  },
+  "mistral_7b": {
+    "min_ram_gb": 12,
+    "min_vram_gb": 8,
+    "gpu_required": true
+  }
+}
