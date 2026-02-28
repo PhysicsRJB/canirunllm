@@ -5,6 +5,9 @@
       "Bash(python:*)",
       "Bash(curl:*)",
       "Bash(pytest:*)",
+      "Bash(gh pr:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
       "Bash(git commit:*)"
     ]
   }
