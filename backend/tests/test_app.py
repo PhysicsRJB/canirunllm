@@ -60,6 +60,15 @@ def test_models_filter_higher_ram(client):
     assert isinstance(data, dict)
     assert len(data) == len(MODELS_INFO)
 
+def test_models_compatible_endpoint(client):
+    resp = client.get('/api/models/compatible')
+    assert resp.status_code == 200
+    data = resp.get_json()
+    assert isinstance(data, dict)
+    # Ensure returned models are a subset of known models
+    for model_id in data:
+        assert model_id in MODELS_INFO
+
 
 def test_check_compatibility_uses_models_info():
     # Pick a model that is not in LLM_MODELS but is in MODELS_INFO
